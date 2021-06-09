@@ -22,7 +22,7 @@ if __name__ == "__main__":
         StructField('comment', StringType(), False),
         StructField('sentiment', IntegerType(), False),
     ])
-    data = []
+    data = []   
 
     for comment in comments:
         for item in comment[0]:
